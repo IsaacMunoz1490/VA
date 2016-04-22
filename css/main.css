@@ -208,8 +208,59 @@ body > footer {
 	font-weight: normal;
 
 }
+/*425*/
+@media (max-width: 425px) {
+	nav {
+		margin-left: 15px;
+	}
+	header h1 {
+		font-size: 36px;
+	}
+	article img {
+		width: 330px;
+	}
+	footer {
+		display: none;
+	}
+}
+/*375*/
+@media (max-width: 375px) {
+	nav {
+		margin-left: 67px;
+	}
+	header h1 {
+		font-size: 36px;
+	}
+	article img {
+		width: 310px;
+	}
+	div.img-wrap img:first-child {
+		margin-left: 2%;
+	}
+	footer {
+		display: none;
+	}
+}
 
-
+/*320*/
+@media (max-width: 320px) {
+		.fa {
+			display: none;
+		}
+		.placeholder {
+			display: none;
+		}
+		nav > div:last-child {
+			display: none;
+		}
+		nav {
+			padding-left: 37%;
+			margin: 10px auto;
+		}
+		article img {
+			width: 260px;
+		}
+}
 
 
 
